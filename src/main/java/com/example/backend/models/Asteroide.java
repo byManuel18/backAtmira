@@ -6,13 +6,13 @@ public class Asteroide {
 	private String nombre;
 	private double diametro;
 	private double velocidad;
-	private Date fecha;
+	private String fecha;
 	private String planeta;
 	
 	public Asteroide() {
 		
 	}
-	public Asteroide(String nombre, double diametro, double velocidad, Date fecha, String planeta) {
+	public Asteroide(String nombre, double diametro, double velocidad, String fecha, String planeta) {
 		super();
 		this.nombre = nombre;
 		this.diametro = diametro;
@@ -38,10 +38,10 @@ public class Asteroide {
 	public void setVelocidad(double velocidad) {
 		this.velocidad = velocidad;
 	}
-	public Date getFecha() {
+	public String getFecha() {
 		return fecha;
 	}
-	public void setFecha(Date fecha) {
+	public void setFecha(String fecha) {
 		this.fecha = fecha;
 	}
 	public String getPlaneta() {
